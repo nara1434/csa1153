@@ -1,0 +1,20 @@
+package exam;
+
+import java.util.Vector;
+import string;
+
+public class applicant {
+
+  public string applicantdetails;
+
+  public string coursedetails;
+
+    public Vector  myexamregistrationmanagement;
+  
+  public void uploadproofs() {
+  }
+
+  public void enroll() {
+  }
+
+}
