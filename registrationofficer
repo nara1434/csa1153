@@ -1,0 +1,22 @@
+package exam;
+
+import date;
+import java.util.Vector;
+import string;
+
+public class registrationofficer {
+
+  public string applicantselectedcoursedetails;
+
+  public date registrationdate;
+
+    public Vector  myexamregistrationmanagement;
+    public Vector  myapplicant;
+
+  public void uploadappliantdetails() {
+  }
+
+  public void entrollmentfofselectedcourses() {
+  }
+
+}
