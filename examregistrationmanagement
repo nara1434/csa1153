@@ -1,20 +1,27 @@
 package exam;
 
-import java.util.Vector;
 import string;
+import double;
 
-public class applicant {
+public class examregistrationmanagement {
 
-  public string applicantdetails;
+  public string appplicantdetails;
 
-  public string coursedetails;
+  public string examvenuedetails;
 
-    public Vector  myexamregistrationmanagement;
-  
-  public void uploadproofs() {
+  public double payment;
+
+    
+  public void verification() {
   }
 
-  public void enroll() {
+  public void cancellation() {
+  }
+
+  public void updates() {
+  }
+
+  public void storedetails() {
   }
 
 }
