@@ -1,0 +1,300 @@
+/**
+ * Class central_management_system
+ */
+public class central_management_system {
+
+  //
+  // Fields
+  //
+
+private void train_name;
+private void passenger_name;
+
+  //
+  // Constructors
+  //
+publiccentral_management_system () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of train_name
+   * @paramnewVar the new value of train_name
+   */
+private void setTrain_name (void newVar) {
+train_name = newVar;
+  }
+
+  /**
+   * Get the value of train_name
+   * @return the value of train_name
+   */
+private void getTrain_name () {
+returntrain_name;
+  }
+
+  /**
+   * Set the value of passenger_name
+   * @paramnewVar the new value of passenger_name
+   */
+private void setPassenger_name (void newVar) {
+passenger_name = newVar;
+  }
+
+  /**
+   * Get the value of passenger_name
+   * @return the value of passenger_name
+   */
+private void getPassenger_name () {
+returnpassenger_name;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void reservation()
+  {
+  }
+
+
+  /**
+   */
+public void cancellation()
+  {
+  }
+
+
+  /**
+   */
+public void login()
+  {
+  }
+
+
+  /**
+   */
+public void central_management()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class passenger
+ */
+public class passenger {
+
+  //
+  // Fields
+  //
+
+private void passenger_name_;
+private void passenger_age;
+private void train_mumber;
+
+  //
+  // Constructors
+  //
+public passenger () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of passenger_name_
+   * @paramnewVar the new value of passenger_name_
+   */
+private void setPassenger_name_ (void newVar) {
+passenger_name_ = newVar;
+  }
+
+  /**
+   * Get the value of passenger_name_
+   * @return the value of passenger_name_
+   */
+private void getPassenger_name_ () {
+returnpassenger_name_;
+  }
+
+  /**
+   * Set the value of passenger_age
+   * @paramnewVar the new value of passenger_age
+   */
+private void setPassenger_age (void newVar) {
+passenger_age = newVar;
+  }
+
+  /**
+   * Get the value of passenger_age
+   * @return the value of passenger_age
+   */
+private void getPassenger_age () {
+returnpassenger_age;
+  }
+
+  /**
+   * Set the value of train_mumber
+   * @paramnewVar the new value of train_mumber
+   */
+private void setTrain_mumber (void newVar) {
+train_mumber = newVar;
+  }
+
+  /**
+   * Get the value of train_mumber
+   * @return the value of train_mumber
+   */
+private void getTrain_mumber () {
+returntrain_mumber;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void login()
+  {
+  }
+
+
+  /**
+   */
+public void passenger()
+  {
+  }
+
+
+}
+
+/**
+ * Class railway_reservation
+ */
+public class railway_reservation {
+
+  //
+  // Fields
+  //
+
+private void train_number;
+private void train_name;
+private void passenger_name;
+
+  //
+  // Constructors
+  //
+publicrailway_reservation () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of train_number
+   * @paramnewVar the new value of train_number
+   */
+private void setTrain_number (void newVar) {
+train_number = newVar;
+  }
+
+  /**
+   * Get the value of train_number
+   * @return the value of train_number
+   */
+private void getTrain_number () {
+returntrain_number;
+  }
+
+  /**
+   * Set the value of train_name
+   * @paramnewVar the new value of train_name
+   */
+private void setTrain_name (void newVar) {
+train_name = newVar;
+  }
+
+  /**
+   * Get the value of train_name
+   * @return the value of train_name
+   */
+private void getTrain_name () {
+returntrain_name;
+  }
+
+  /**
+   * Set the value of passenger_name
+   * @paramnewVar the new value of passenger_name
+   */
+private void setPassenger_name (void newVar) {
+passenger_name = newVar;
+  }
+
+  /**
+   * Get the value of passenger_name
+   * @return the value of passenger_name
+   */
+private void getPassenger_name () {
+returnpassenger_name;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void status()
+  {
+  }
+
+
+  /**
+   */
+public void reservation()
+  {
+  }
+
+
+  /**
+   */
+public void cancellation()
+  {
+  }
+
+
+  /**
+   */
+public void railway_reservation()
+  {
+  }
+
+
+}
