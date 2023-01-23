@@ -1,0 +1,212 @@
+/**
+ * Class cental_stock_system
+ */
+public class cental_stock_system {
+
+  //
+  // Fields
+  //
+
+private void store_stock_details;
+
+  //
+  // Constructors
+  //
+publiccental_stock_system () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of store_stock_details
+   * @paramnewVar the new value of store_stock_details
+   */
+private void setStore_stock_details (void newVar) {
+store_stock_details = newVar;
+  }
+
+  /**
+   * Get the value of store_stock_details
+   * @return the value of store_stock_details
+   */
+private void getStore_stock_details () {
+returnstore_stock_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void print_bill()
+  {
+  }
+
+
+  /**
+   */
+public void deliver_product()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class customer
+ */
+public class customer {
+
+  //
+  // Fields
+  //
+
+private void place_order;
+
+  //
+  // Constructors
+  //
+public customer () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of place_order
+   * @paramnewVar the new value of place_order
+   */
+private void setPlace_order (void newVar) {
+place_order = newVar;
+  }
+
+  /**
+   * Get the value of place_order
+   * @return the value of place_order
+   */
+private void getPlace_order () {
+returnplace_order;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void payment()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class stock_dealer
+ */
+public class stock_dealer {
+
+  //
+  // Fields
+  //
+
+private void take_order;
+private void enter_details;
+private void verify_details;
+
+  //
+  // Constructors
+  //
+publicstock_dealer () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of take_order
+   * @paramnewVar the new value of take_order
+   */
+private void setTake_order (void newVar) {
+take_order = newVar;
+  }
+
+  /**
+   * Get the value of take_order
+   * @return the value of take_order
+   */
+private void getTake_order () {
+returntake_order;
+  }
+
+  /**
+   * Set the value of enter_details
+   * @paramnewVar the new value of enter_details
+   */
+private void setEnter_details (void newVar) {
+enter_details = newVar;
+  }
+
+  /**
+   * Get the value of enter_details
+   * @return the value of enter_details
+   */
+private void getEnter_details () {
+returnenter_details;
+  }
+
+  /**
+   * Set the value of verify_details
+   * @paramnewVar the new value of verify_details
+   */
+private void setVerify_details (void newVar) {
+verify_details = newVar;
+  }
+
+  /**
+   * Get the value of verify_details
+   * @return the value of verify_details
+   */
+private void getVerify_details () {
+returnverify_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void deliver_item()
+  {
+  }
+
+
+}
