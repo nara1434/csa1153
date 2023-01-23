@@ -1,0 +1,209 @@
+/**
+ * Class central_education_system
+ */
+public class central_education_system {
+
+  //
+  // Fields
+  //
+
+private void student_details;
+
+  //
+  // Constructors
+  //
+publiccentral_education_system () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of student_details
+   * @paramnewVar the new value of student_details
+   */
+private void setStudent_details (void newVar) {
+student_details = newVar;
+  }
+
+  /**
+   * Get the value of student_details
+   * @return the value of student_details
+   */
+private void getStudent_details () {
+returnstudent_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void print_hallticket()
+  {
+  }
+
+
+  /**
+   */
+public void issue_hallticket()
+  {
+  }
+
+
+  /**
+   */
+public void verify_details()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class education_officer
+ */
+public class education_officer {
+
+  //
+  // Fields
+  //
+
+private void enter_details;
+
+  //
+  // Constructors
+  //
+publiceducation_officer () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of enter_details
+   * @paramnewVar the new value of enter_details
+   */
+private void setEnter_details (void newVar) {
+enter_details = newVar;
+  }
+
+  /**
+   * Get the value of enter_details
+   * @return the value of enter_details
+   */
+private void getEnter_details () {
+returnenter_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void issue_hallticket()
+  {
+  }
+
+
+  /**
+   */
+public void verify_proof()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class student
+ */
+public class student {
+
+  //
+  // Fields
+  //
+
+private void submit_details;
+private void submit_photo;
+
+  //
+  // Constructors
+  //
+public student () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of submit_details
+   * @paramnewVar the new value of submit_details
+   */
+private void setSubmit_details (void newVar) {
+submit_details = newVar;
+  }
+
+  /**
+   * Get the value of submit_details
+   * @return the value of submit_details
+   */
+private void getSubmit_details () {
+returnsubmit_details;
+  }
+
+  /**
+   * Set the value of submit_photo
+   * @paramnewVar the new value of submit_photo
+   */
+private void setSubmit_photo (void newVar) {
+submit_photo = newVar;
+  }
+
+  /**
+   * Get the value of submit_photo
+   * @return the value of submit_photo
+   */
+private void getSubmit_photo () {
+returnsubmit_photo;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void payment_of_fees()
+  {
+  }
+
+
+}
