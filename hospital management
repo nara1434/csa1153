@@ -1,0 +1,533 @@
+/**
+ * Class beds
+ */
+public class beds {
+
+  //
+  // Fields
+  //
+
+  private void bed_no;
+  private void patient_admited;
+  private void diagonosis_;
+  private void description;
+
+  //
+  // Constructors
+  //
+  public beds () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of bed_no
+   * @param newVar the new value of bed_no
+   */
+  private void setBed_no (void newVar) {
+    bed_no = newVar;
+  }
+
+  /**
+   * Get the value of bed_no
+   * @return the value of bed_no
+   */
+  private void getBed_no () {
+    return bed_no;
+  }
+
+  /**
+   * Set the value of patient_admited
+   * @param newVar the new value of patient_admited
+   */
+  private void setPatient_admited (void newVar) {
+    patient_admited = newVar;
+  }
+
+  /**
+   * Get the value of patient_admited
+   * @return the value of patient_admited
+   */
+  private void getPatient_admited () {
+    return patient_admited;
+  }
+
+  /**
+   * Set the value of diagonosis_
+   * @param newVar the new value of diagonosis_
+   */
+  private void setDiagonosis_ (void newVar) {
+    diagonosis_ = newVar;
+  }
+
+  /**
+   * Get the value of diagonosis_
+   * @return the value of diagonosis_
+   */
+  private void getDiagonosis_ () {
+    return diagonosis_;
+  }
+
+  /**
+   * Set the value of description
+   * @param newVar the new value of description
+   */
+  private void setDescription (void newVar) {
+    description = newVar;
+  }
+
+  /**
+   * Get the value of description
+   * @return the value of description
+   */
+  private void getDescription () {
+    return description;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void admited()
+  {
+  }
+
+
+  /**
+   */
+  public void check_duration()
+  {
+  }
+
+
+  /**
+   */
+  public void maintain_treatment()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+
+/**
+ * Class doctor
+ */
+public class doctor {
+
+  //
+  // Fields
+  //
+
+  private void doctor_details;
+  private void no_of_patient_attented;
+
+  //
+  // Constructors
+  //
+  public doctor () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of doctor_details
+   * @param newVar the new value of doctor_details
+   */
+  private void setDoctor_details (void newVar) {
+    doctor_details = newVar;
+  }
+
+  /**
+   * Get the value of doctor_details
+   * @return the value of doctor_details
+   */
+  private void getDoctor_details () {
+    return doctor_details;
+  }
+
+  /**
+   * Set the value of no_of_patient_attented
+   * @param newVar the new value of no_of_patient_attented
+   */
+  private void setNo_of_patient_attented (void newVar) {
+    no_of_patient_attented = newVar;
+  }
+
+  /**
+   * Get the value of no_of_patient_attented
+   * @return the value of no_of_patient_attented
+   */
+  private void getNo_of_patient_attented () {
+    return no_of_patient_attented;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void treatment()
+  {
+  }
+
+
+  /**
+   */
+  public void provide_medicine()
+  {
+  }
+
+
+  /**
+   */
+  public void leaves_taken()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+/**
+ * Class facilities
+ */
+public class facilities {
+
+  //
+  // Fields
+  //
+
+  private void no_ofbeds;
+  private GYfl6vEfY09C no_of_normal_ward;
+  private void no_of_icu_;
+
+  //
+  // Constructors
+  //
+  public facilities () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of no_ofbeds
+   * @param newVar the new value of no_ofbeds
+   */
+  private void setNo_ofbeds (void newVar) {
+    no_ofbeds = newVar;
+  }
+
+  /**
+   * Get the value of no_ofbeds
+   * @return the value of no_ofbeds
+   */
+  private void getNo_ofbeds () {
+    return no_ofbeds;
+  }
+
+  /**
+   * Set the value of no_of_normal_ward
+   * @param newVar the new value of no_of_normal_ward
+   */
+  private void setNo_of_normal_ward (GYfl6vEfY09C newVar) {
+    no_of_normal_ward = newVar;
+  }
+
+  /**
+   * Get the value of no_of_normal_ward
+   * @return the value of no_of_normal_ward
+   */
+  private GYfl6vEfY09C getNo_of_normal_ward () {
+    return no_of_normal_ward;
+  }
+
+  /**
+   * Set the value of no_of_icu_
+   * @param newVar the new value of no_of_icu_
+   */
+  private void setNo_of_icu_ (void newVar) {
+    no_of_icu_ = newVar;
+  }
+
+  /**
+   * Get the value of no_of_icu_
+   * @return the value of no_of_icu_
+   */
+  private void getNo_of_icu_ () {
+    return no_of_icu_;
+  }
+
+  //
+  // Other methods
+  //
+
+}
+
+
+
+
+
+
+
+/**
+ * Class medical_pharmacy
+ */
+public class medical_pharmacy {
+
+  //
+  // Fields
+  //
+
+  private void medicine_name;
+  private void purpose;
+  private void duration;
+
+  //
+  // Constructors
+  //
+  public medical_pharmacy () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of medicine_name
+   * @param newVar the new value of medicine_name
+   */
+  private void setMedicine_name (void newVar) {
+    medicine_name = newVar;
+  }
+
+  /**
+   * Get the value of medicine_name
+   * @return the value of medicine_name
+   */
+  private void getMedicine_name () {
+    return medicine_name;
+  }
+
+  /**
+   * Set the value of purpose
+   * @param newVar the new value of purpose
+   */
+  private void setPurpose (void newVar) {
+    purpose = newVar;
+  }
+
+  /**
+   * Get the value of purpose
+   * @return the value of purpose
+   */
+  private void getPurpose () {
+    return purpose;
+  }
+
+  /**
+   * Set the value of duration
+   * @param newVar the new value of duration
+   */
+  private void setDuration (void newVar) {
+    duration = newVar;
+  }
+
+  /**
+   * Get the value of duration
+   * @return the value of duration
+   */
+  private void getDuration () {
+    return duration;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void check_valadity()
+  {
+  }
+
+
+  /**
+   */
+  public void payment()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class medicenes
+ */
+public class medicenes {
+
+  //
+  // Fields
+  //
+
+
+  //
+  // Constructors
+  //
+  public medicenes () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  //
+  // Other methods
+  //
+
+}
+
+
+
+
+
+
+/**
+ * Class patient
+ */
+public class patient {
+
+  //
+  // Fields
+  //
+
+  private void name;
+  private void age;
+  private void diagonosis;
+
+  //
+  // Constructors
+  //
+  public patient () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @param newVar the new value of name
+   */
+  private void setName (void newVar) {
+    name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  private void getName () {
+    return name;
+  }
+
+  /**
+   * Set the value of age
+   * @param newVar the new value of age
+   */
+  private void setAge (void newVar) {
+    age = newVar;
+  }
+
+  /**
+   * Get the value of age
+   * @return the value of age
+   */
+  private void getAge () {
+    return age;
+  }
+
+  /**
+   * Set the value of diagonosis
+   * @param newVar the new value of diagonosis
+   */
+  private void setDiagonosis (void newVar) {
+    diagonosis = newVar;
+  }
+
+  /**
+   * Get the value of diagonosis
+   * @return the value of diagonosis
+   */
+  private void getDiagonosis () {
+    return diagonosis;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void explain_diagonosis_()
+  {
+  }
+
+
+  /**
+   */
+  public void make_payment()
+  {
+  }
+
+
+}
