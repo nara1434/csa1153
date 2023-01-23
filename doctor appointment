@@ -1,0 +1,284 @@
+/**
+ * Class doctor
+ */
+public class doctor {
+
+  //
+  // Fields
+  //
+
+private void doctor_details;
+private void no_of_patient_attented;
+
+  //
+  // Constructors
+  //
+public doctor () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of doctor_details
+   * @paramnewVar the new value of doctor_details
+   */
+private void setDoctor_details (void newVar) {
+doctor_details = newVar;
+  }
+
+  /**
+   * Get the value of doctor_details
+   * @return the value of doctor_details
+   */
+private void getDoctor_details () {
+returndoctor_details;
+  }
+
+  /**
+   * Set the value of no_of_patient_attented
+   * @paramnewVar the new value of no_of_patient_attented
+   */
+private void setNo_of_patient_attented (void newVar) {
+no_of_patient_attented = newVar;
+  }
+
+  /**
+   * Get the value of no_of_patient_attented
+   * @return the value of no_of_patient_attented
+   */
+private void getNo_of_patient_attented () {
+returnno_of_patient_attented;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void diag_sol()
+  {
+  }
+
+
+  /**
+   */
+public void provide_medicine()
+  {
+  }
+
+
+  /**
+   */
+public void leaves_taken()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class patient
+ */
+public class patient {
+
+  //
+  // Fields
+  //
+
+private void name;
+private void age;
+private void diagonosis;
+
+  //
+  // Constructors
+  //
+public patient () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @paramnewVar the new value of name
+   */
+private void setName (void newVar) {
+name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+private void getName () {
+return name;
+  }
+
+  /**
+   * Set the value of age
+   * @paramnewVar the new value of age
+   */
+private void setAge (void newVar) {
+age = newVar;
+  }
+
+  /**
+   * Get the value of age
+   * @return the value of age
+   */
+private void getAge () {
+return age;
+  }
+
+  /**
+   * Set the value of diagonosis
+   * @paramnewVar the new value of diagonosis
+   */
+private void setDiagonosis (void newVar) {
+diagonosis = newVar;
+  }
+
+  /**
+   * Get the value of diagonosis
+   * @return the value of diagonosis
+   */
+private void getDiagonosis () {
+returndiagonosis;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void explain_diagonosis_()
+  {
+  }
+
+
+  /**
+   */
+public void make_payment()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class patient
+ */
+public class patient {
+
+  //
+  // Fields
+  //
+
+private void name;
+private void age;
+private void diagonosis;
+
+  //
+  // Constructors
+  //
+public patient () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @paramnewVar the new value of name
+   */
+private void setName (void newVar) {
+name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+private void getName () {
+return name;
+  }
+
+  /**
+   * Set the value of age
+   * @paramnewVar the new value of age
+   */
+private void setAge (void newVar) {
+age = newVar;
+  }
+
+  /**
+   * Get the value of age
+   * @return the value of age
+   */
+private void getAge () {
+return age;
+  }
+
+  /**
+   * Set the value of diagonosis
+   * @paramnewVar the new value of diagonosis
+   */
+private void setDiagonosis (void newVar) {
+diagonosis = newVar;
+  }
+
+  /**
+   * Get the value of diagonosis
+   * @return the value of diagonosis
+   */
+private void getDiagonosis () {
+returndiagonosis;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void explain_diagonosis_()
+  {
+  }
+
+
+  /**
+   */
+public void make_payment()
+  {
+  }
+
+
+}
