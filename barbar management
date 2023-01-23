@@ -1,0 +1,308 @@
+/**
+ * Class barber
+ */
+public class barber {
+
+  //
+  // Fields
+  //
+
+public void mobile_number;
+private void name;
+private void availablity;
+private void salary;
+
+  //
+  // Constructors
+  //
+public barber () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of mobile_number
+   * @paramnewVar the new value of mobile_number
+   */
+public void setMobile_number (void newVar) {
+mobile_number = newVar;
+  }
+
+  /**
+   * Get the value of mobile_number
+   * @return the value of mobile_number
+   */
+public void getMobile_number () {
+returnmobile_number;
+  }
+
+  /**
+   * Set the value of name
+   * @paramnewVar the new value of name
+   */
+private void setName (void newVar) {
+name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+private void getName () {
+return name;
+  }
+
+  /**
+   * Set the value of availablity
+   * @paramnewVar the new value of availablity
+   */
+private void setAvailablity (void newVar) {
+availablity = newVar;
+  }
+
+  /**
+   * Get the value of availablity
+   * @return the value of availablity
+   */
+private void getAvailablity () {
+returnavailablity;
+  }
+
+  /**
+   * Set the value of salary
+   * @paramnewVar the new value of salary
+   */
+private void setSalary (void newVar) {
+salary = newVar;
+  }
+
+  /**
+   * Get the value of salary
+   * @return the value of salary
+   */
+private void getSalary () {
+return salary;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void take_order()
+  {
+  }
+
+
+  /**
+   */
+public void provide_service()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class customer
+ */
+public class customer {
+
+  //
+  // Fields
+  //
+
+public void name;
+private void phone_no;
+
+  //
+  // Constructors
+  //
+public customer () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @paramnewVar the new value of name
+   */
+public void setName (void newVar) {
+name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+public void getName () {
+return name;
+  }
+
+  /**
+   * Set the value of phone_no
+   * @paramnewVar the new value of phone_no
+   */
+private void setPhone_no (void newVar) {
+phone_no = newVar;
+  }
+
+  /**
+   * Get the value of phone_no
+   * @return the value of phone_no
+   */
+private void getPhone_no () {
+returnphone_no;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void book_package()
+  {
+  }
+
+
+  /**
+   */
+public void make_payment()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class management_system
+ */
+public class management_system {
+
+  //
+  // Fields
+  //
+
+private void request_remaining;
+private void barbers_details;
+private void packages;
+
+  //
+  // Constructors
+  //
+publicmanagement_system () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of request_remaining
+   * @paramnewVar the new value of request_remaining
+   */
+private void setRequest_remaining (void newVar) {
+request_remaining = newVar;
+  }
+
+  /**
+   * Get the value of request_remaining
+   * @return the value of request_remaining
+   */
+private void getRequest_remaining () {
+returnrequest_remaining;
+  }
+
+  /**
+   * Set the value of barbers_details
+   * @paramnewVar the new value of barbers_details
+   */
+private void setBarbers_details (void newVar) {
+barbers_details = newVar;
+  }
+
+  /**
+   * Get the value of barbers_details
+   * @return the value of barbers_details
+   */
+private void getBarbers_details () {
+returnbarbers_details;
+  }
+
+  /**
+   * Set the value of packages
+   * @paramnewVar the new value of packages
+   */
+private void setPackages (void newVar) {
+packages = newVar;
+  }
+
+  /**
+   * Get the value of packages
+   * @return the value of packages
+   */
+private void getPackages () {
+return packages;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void provide_service()
+  {
+  }
+
+
+  /**
+   */
+public void generate_amount()
+  {
+  }
+
+
+  /**
+   */
+public void generate_salary()
+  {
+  }
+
+
+  /**
+   */
+public void login_registration()
+  {
+  }
+
+
+}
