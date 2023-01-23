@@ -1,0 +1,470 @@
+/**
+ * Class buyer
+ */
+public class buyer {
+
+  //
+  // Fields
+  //
+
+private void name;
+private void adress;
+private void phone_no;
+private void register_id;
+
+  //
+  // Constructors
+  //
+public buyer () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @paramnewVar the new value of name
+   */
+private void setName (void newVar) {
+name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+private void getName () {
+return name;
+  }
+
+  /**
+   * Set the value of adress
+   * @paramnewVar the new value of adress
+   */
+private void setAdress (void newVar) {
+adress = newVar;
+  }
+
+  /**
+   * Get the value of adress
+   * @return the value of adress
+   */
+private void getAdress () {
+returnadress;
+  }
+
+  /**
+   * Set the value of phone_no
+   * @paramnewVar the new value of phone_no
+   */
+private void setPhone_no (void newVar) {
+phone_no = newVar;
+  }
+
+  /**
+   * Get the value of phone_no
+   * @return the value of phone_no
+   */
+private void getPhone_no () {
+returnphone_no;
+  }
+
+  /**
+   * Set the value of register_id
+   * @paramnewVar the new value of register_id
+   */
+private void setRegister_id (void newVar) {
+register_id = newVar;
+  }
+
+  /**
+   * Get the value of register_id
+   * @return the value of register_id
+   */
+private void getRegister_id () {
+returnregister_id;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void check_list()
+  {
+  }
+
+
+  /**
+   */
+public void book_property()
+  {
+  }
+
+
+  /**
+   */
+public void check_payment_option()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class management
+ */
+public class management {
+
+  //
+  // Fields
+  //
+
+private void suggesion;
+private void range_of_amount;
+
+  //
+  // Constructors
+  //
+public management () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of suggesion
+   * @paramnewVar the new value of suggesion
+   */
+private void setSuggesion (void newVar) {
+suggesion = newVar;
+  }
+
+  /**
+   * Get the value of suggesion
+   * @return the value of suggesion
+   */
+private void getSuggesion () {
+returnsuggesion;
+  }
+
+  /**
+   * Set the value of range_of_amount
+   * @paramnewVar the new value of range_of_amount
+   */
+private void setRange_of_amount (void newVar) {
+range_of_amount = newVar;
+  }
+
+  /**
+   * Get the value of range_of_amount
+   * @return the value of range_of_amount
+   */
+private void getRange_of_amount () {
+returnrange_of_amount;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void display_options()
+  {
+  }
+
+
+  /**
+   */
+public void accept_suggesions()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class payment
+ */
+public class payment {
+
+  //
+  // Fields
+  //
+
+private void payment_id;
+private void payment_mode;
+private void payment_amount;
+
+  //
+  // Constructors
+  //
+public payment () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of payment_id
+   * @paramnewVar the new value of payment_id
+   */
+private void setPayment_id (void newVar) {
+payment_id = newVar;
+  }
+
+  /**
+   * Get the value of payment_id
+   * @return the value of payment_id
+   */
+private void getPayment_id () {
+returnpayment_id;
+  }
+
+  /**
+   * Set the value of payment_mode
+   * @paramnewVar the new value of payment_mode
+   */
+private void setPayment_mode (void newVar) {
+payment_mode = newVar;
+  }
+
+  /**
+   * Get the value of payment_mode
+   * @return the value of payment_mode
+   */
+private void getPayment_mode () {
+returnpayment_mode;
+  }
+
+  /**
+   * Set the value of payment_amount
+   * @paramnewVar the new value of payment_amount
+   */
+private void setPayment_amount (void newVar) {
+payment_amount = newVar;
+  }
+
+  /**
+   * Get the value of payment_amount
+   * @return the value of payment_amount
+   */
+private void getPayment_amount () {
+returnpayment_amount;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void valuable_amount()
+  {
+  }
+
+
+  /**
+   */
+public void process_payment()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class property
+ */
+public class property {
+
+  //
+  // Fields
+  //
+
+private void property_id;
+private void location;
+private void price;
+private void status;
+
+  //
+  // Constructors
+  //
+public property () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of property_id
+   * @paramnewVar the new value of property_id
+   */
+private void setProperty_id (void newVar) {
+property_id = newVar;
+  }
+
+  /**
+   * Get the value of property_id
+   * @return the value of property_id
+   */
+private void getProperty_id () {
+returnproperty_id;
+  }
+
+  /**
+   * Set the value of location
+   * @paramnewVar the new value of location
+   */
+private void setLocation (void newVar) {
+location = newVar;
+  }
+
+  /**
+   * Get the value of location
+   * @return the value of location
+   */
+private void getLocation () {
+return location;
+  }
+
+  /**
+   * Set the value of price
+   * @paramnewVar the new value of price
+   */
+private void setPrice (void newVar) {
+price = newVar;
+  }
+
+  /**
+   * Get the value of price
+   * @return the value of price
+   */
+private void getPrice () {
+return price;
+  }
+
+  /**
+   * Set the value of status
+   * @paramnewVar the new value of status
+   */
+private void setStatus (void newVar) {
+status = newVar;
+  }
+
+  /**
+   * Get the value of status
+   * @return the value of status
+   */
+private void getStatus () {
+return status;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void property_details()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class seller
+ */
+public class seller {
+
+  //
+  // Fields
+  //
+
+private void property_id;
+
+  //
+  // Constructors
+  //
+public seller () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of property_id
+   * @paramnewVar the new value of property_id
+   */
+private void setProperty_id (void newVar) {
+property_id = newVar;
+  }
+
+  /**
+   * Get the value of property_id
+   * @return the value of property_id
+   */
+private void getProperty_id () {
+returnproperty_id;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void add_property_details()
+  {
+  }
+
+
+}
