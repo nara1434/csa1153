@@ -1,0 +1,271 @@
+/**
+ * Class applicant
+ */
+public class applicant {
+
+  //
+  // Fields
+  //
+
+private void applicant_details;
+private void salary;
+
+  //
+  // Constructors
+  //
+public applicant () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of applicant_details
+   * @paramnewVar the new value of applicant_details
+   */
+private void setApplicant_details (void newVar) {
+applicant_details = newVar;
+  }
+
+  /**
+   * Get the value of applicant_details
+   * @return the value of applicant_details
+   */
+private void getApplicant_details () {
+returnapplicant_details;
+  }
+
+  /**
+   * Set the value of salary
+   * @paramnewVar the new value of salary
+   */
+private void setSalary (void newVar) {
+salary = newVar;
+  }
+
+  /**
+   * Get the value of salary
+   * @return the value of salary
+   */
+private void getSalary () {
+return salary;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void leave_taken()
+  {
+  }
+
+
+  /**
+   */
+public void employee()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class central_management_system
+ */
+public class central_management_system {
+
+  //
+  // Fields
+  //
+
+private void emp_name;
+private void emp_number;
+private void emp_details;
+
+  //
+  // Constructors
+  //
+publiccentral_management_system () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of emp_name
+   * @paramnewVar the new value of emp_name
+   */
+private void setEmp_name (void newVar) {
+emp_name = newVar;
+  }
+
+  /**
+   * Get the value of emp_name
+   * @return the value of emp_name
+   */
+private void getEmp_name () {
+returnemp_name;
+  }
+
+  /**
+   * Set the value of emp_number
+   * @paramnewVar the new value of emp_number
+   */
+private void setEmp_number (void newVar) {
+emp_number = newVar;
+  }
+
+  /**
+   * Get the value of emp_number
+   * @return the value of emp_number
+   */
+private void getEmp_number () {
+returnemp_number;
+  }
+
+  /**
+   * Set the value of emp_details
+   * @paramnewVar the new value of emp_details
+   */
+private void setEmp_details (void newVar) {
+emp_details = newVar;
+  }
+
+  /**
+   * Get the value of emp_details
+   * @return the value of emp_details
+   */
+private void getEmp_details () {
+returnemp_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void leave_taken()
+  {
+  }
+
+
+  /**
+   */
+public void tax()
+  {
+  }
+
+
+  /**
+   */
+public void loan()
+  {
+  }
+
+
+  /**
+   */
+public void salary()
+  {
+  }
+
+
+  /**
+   */
+public void central_management_system()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class HR
+ */
+public class HR {
+
+  //
+  // Fields
+  //
+
+private void check_details;
+
+  //
+  // Constructors
+  //
+public HR () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of check_details
+   * @paramnewVar the new value of check_details
+   */
+private void setCheck_details (void newVar) {
+check_details = newVar;
+  }
+
+  /**
+   * Get the value of check_details
+   * @return the value of check_details
+   */
+private void getCheck_details () {
+returncheck_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void loss_of_pay()
+  {
+  }
+
+
+  /**
+   */
+public void tax()
+  {
+  }
+
+
+  /**
+   */
+public void hr()
+  {
+  }
+
+
+}
