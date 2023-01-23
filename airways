@@ -1,0 +1,491 @@
+/**
+ * Class aeroplane
+ */
+public class aeroplane {
+
+  //
+  // Fields
+  //
+
+private void flight_name;
+private void flight_details;
+private void pilot_name;
+private void pilot_details;
+private void maximum_number_of_passengers;
+
+  //
+  // Constructors
+  //
+public aeroplane () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of flight_name
+   * @paramnewVar the new value of flight_name
+   */
+private void setFlight_name (void newVar) {
+flight_name = newVar;
+  }
+
+  /**
+   * Get the value of flight_name
+   * @return the value of flight_name
+   */
+private void getFlight_name () {
+returnflight_name;
+  }
+
+  /**
+   * Set the value of flight_details
+   * @paramnewVar the new value of flight_details
+   */
+private void setFlight_details (void newVar) {
+flight_details = newVar;
+  }
+
+  /**
+   * Get the value of flight_details
+   * @return the value of flight_details
+   */
+private void getFlight_details () {
+returnflight_details;
+  }
+
+  /**
+   * Set the value of pilot_name
+   * @paramnewVar the new value of pilot_name
+   */
+private void setPilot_name (void newVar) {
+pilot_name = newVar;
+  }
+
+  /**
+   * Get the value of pilot_name
+   * @return the value of pilot_name
+   */
+private void getPilot_name () {
+returnpilot_name;
+  }
+
+  /**
+   * Set the value of pilot_details
+   * @paramnewVar the new value of pilot_details
+   */
+private void setPilot_details (void newVar) {
+pilot_details = newVar;
+  }
+
+  /**
+   * Get the value of pilot_details
+   * @return the value of pilot_details
+   */
+private void getPilot_details () {
+returnpilot_details;
+  }
+
+  /**
+   * Set the value of maximum_number_of_passengers
+   * @paramnewVar the new value of maximum_number_of_passengers
+   */
+private void setMaximum_number_of_passengers (void newVar) {
+maximum_number_of_passengers = newVar;
+  }
+
+  /**
+   * Get the value of maximum_number_of_passengers
+   * @return the value of maximum_number_of_passengers
+   */
+private void getMaximum_number_of_passengers () {
+returnmaximum_number_of_passengers;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void travel()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class central_management_system
+ */
+public class central_management_system {
+
+  //
+  // Fields
+  //
+
+private void passenger_name;
+private void plane_name;
+private void time;
+private void source_;
+private void destination;
+
+  //
+  // Constructors
+  //
+publiccentral_management_system () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of passenger_name
+   * @paramnewVar the new value of passenger_name
+   */
+private void setPassenger_name (void newVar) {
+passenger_name = newVar;
+  }
+
+  /**
+   * Get the value of passenger_name
+   * @return the value of passenger_name
+   */
+private void getPassenger_name () {
+returnpassenger_name;
+  }
+
+  /**
+   * Set the value of plane_name
+   * @paramnewVar the new value of plane_name
+   */
+private void setPlane_name (void newVar) {
+plane_name = newVar;
+  }
+
+  /**
+   * Get the value of plane_name
+   * @return the value of plane_name
+   */
+private void getPlane_name () {
+returnplane_name;
+  }
+
+  /**
+   * Set the value of time
+   * @paramnewVar the new value of time
+   */
+private void setTime (void newVar) {
+time = newVar;
+  }
+
+  /**
+   * Get the value of time
+   * @return the value of time
+   */
+private void getTime () {
+return time;
+  }
+
+  /**
+   * Set the value of source_
+   * @paramnewVar the new value of source_
+   */
+private void setSource_ (void newVar) {
+    source_ = newVar;
+  }
+
+  /**
+   * Get the value of source_
+   * @return the value of source_
+   */
+private void getSource_ () {
+return source_;
+  }
+
+  /**
+   * Set the value of destination
+   * @paramnewVar the new value of destination
+   */
+private void setDestination (void newVar) {
+destination = newVar;
+  }
+
+  /**
+   * Get the value of destination
+   * @return the value of destination
+   */
+private void getDestination () {
+return destination;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void reservation()
+  {
+  }
+
+
+  /**
+   */
+public void cancellation()
+  {
+  }
+
+
+  /**
+   */
+public void login()
+  {
+  }
+
+
+  /**
+   */
+public void central_management()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class flight_ticketreservation
+ */
+public class flight_ticketreservation {
+
+  //
+  // Fields
+  //
+
+private void flight_number;
+private void flight_name;
+private void passenger_name;
+
+  //
+  // Constructors
+  //
+publicflight_ticketreservation () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of flight_number
+   * @paramnewVar the new value of flight_number
+   */
+private void setFlight_number (void newVar) {
+flight_number = newVar;
+  }
+
+  /**
+   * Get the value of flight_number
+   * @return the value of flight_number
+   */
+private void getFlight_number () {
+returnflight_number;
+  }
+
+  /**
+   * Set the value of flight_name
+   * @paramnewVar the new value of flight_name
+   */
+private void setFlight_name (void newVar) {
+flight_name = newVar;
+  }
+
+  /**
+   * Get the value of flight_name
+   * @return the value of flight_name
+   */
+private void getFlight_name () {
+returnflight_name;
+  }
+
+  /**
+   * Set the value of passenger_name
+   * @paramnewVar the new value of passenger_name
+   */
+private void setPassenger_name (void newVar) {
+passenger_name = newVar;
+  }
+
+  /**
+   * Get the value of passenger_name
+   * @return the value of passenger_name
+   */
+private void getPassenger_name () {
+returnpassenger_name;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void status()
+  {
+  }
+
+
+  /**
+   */
+public void reservation()
+  {
+  }
+
+
+  /**
+   */
+public void cancellation()
+  {
+  }
+
+
+  /**
+   */
+public void generate_ticket()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+
+/**
+ * Class passenger
+ */
+public class passenger {
+
+  //
+  // Fields
+  //
+
+private void passenger_name_;
+private void passenger_age;
+private void flight_details;
+
+  //
+  // Constructors
+  //
+public passenger () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of passenger_name_
+   * @paramnewVar the new value of passenger_name_
+   */
+private void setPassenger_name_ (void newVar) {
+passenger_name_ = newVar;
+  }
+
+  /**
+   * Get the value of passenger_name_
+   * @return the value of passenger_name_
+   */
+private void getPassenger_name_ () {
+returnpassenger_name_;
+  }
+
+  /**
+   * Set the value of passenger_age
+   * @paramnewVar the new value of passenger_age
+   */
+private void setPassenger_age (void newVar) {
+passenger_age = newVar;
+  }
+
+  /**
+   * Get the value of passenger_age
+   * @return the value of passenger_age
+   */
+private void getPassenger_age () {
+returnpassenger_age;
+  }
+
+  /**
+   * Set the value of flight_details
+   * @paramnewVar the new value of flight_details
+   */
+private void setFlight_details (void newVar) {
+flight_details = newVar;
+  }
+
+  /**
+   * Get the value of flight_details
+   * @return the value of flight_details
+   */
+private void getFlight_details () {
+returnflight_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void login()
+  {
+  }
+
+
+  /**
+   */
+public void passenger()
+  {
+  }
+
+
+  /**
+   */
+public void make_payment()
+  {
+  }
+
+
+}
