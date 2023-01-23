@@ -1,0 +1,439 @@
+/**
+ * Class admin
+ */
+public class admin {
+
+  //
+  // Fields
+  //
+
+private void admin_details;
+
+  //
+  // Constructors
+  //
+public admin () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of admin_details
+   * @paramnewVar the new value of admin_details
+   */
+private void setAdmin_details (void newVar) {
+admin_details = newVar;
+  }
+
+  /**
+   * Get the value of admin_details
+   * @return the value of admin_details
+   */
+private void getAdmin_details () {
+returnadmin_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void search_for_garderner()
+  {
+  }
+
+
+  /**
+   */
+public void provide_work()
+  {
+  }
+
+
+  /**
+   */
+public void generate_salary()
+  {
+  }
+
+
+  /**
+   */
+public void new_operation()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class booking_platform
+ */
+public class booking_platform {
+
+  //
+  // Fields
+  //
+
+private void client_details;
+private void gardener_details;
+private void garden_size;
+private void generated_amount;
+
+  //
+  // Constructors
+  //
+publicbooking_platform () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of client_details
+   * @paramnewVar the new value of client_details
+   */
+private void setClient_details (void newVar) {
+client_details = newVar;
+  }
+
+  /**
+   * Get the value of client_details
+   * @return the value of client_details
+   */
+private void getClient_details () {
+returnclient_details;
+  }
+
+  /**
+   * Set the value of gardener_details
+   * @paramnewVar the new value of gardener_details
+   */
+private void setGardener_details (void newVar) {
+gardener_details = newVar;
+  }
+
+  /**
+   * Get the value of gardener_details
+   * @return the value of gardener_details
+   */
+private void getGardener_details () {
+returngardener_details;
+  }
+
+  /**
+   * Set the value of garden_size
+   * @paramnewVar the new value of garden_size
+   */
+private void setGarden_size (void newVar) {
+garden_size = newVar;
+  }
+
+  /**
+   * Get the value of garden_size
+   * @return the value of garden_size
+   */
+private void getGarden_size () {
+returngarden_size;
+  }
+
+  /**
+   * Set the value of generated_amount
+   * @paramnewVar the new value of generated_amount
+   */
+private void setGenerated_amount (void newVar) {
+generated_amount = newVar;
+  }
+
+  /**
+   * Get the value of generated_amount
+   * @return the value of generated_amount
+   */
+private void getGenerated_amount () {
+returngenerated_amount;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void generate_amount()
+  {
+  }
+
+
+  /**
+   */
+public void print_bill()
+  {
+  }
+
+
+  /**
+   */
+public void registration()
+  {
+  }
+
+
+  /**
+   */
+public void lolgin()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class client
+ */
+public class client {
+
+  //
+  // Fields
+  //
+
+public void name;
+public void payment;
+private void phone_no;
+private void garden_size;
+
+  //
+  // Constructors
+  //
+public client () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @paramnewVar the new value of name
+   */
+public void setName (void newVar) {
+name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+public void getName () {
+return name;
+  }
+
+  /**
+   * Set the value of payment
+   * @paramnewVar the new value of payment
+   */
+public void setPayment (void newVar) {
+payment = newVar;
+  }
+
+  /**
+   * Get the value of payment
+   * @return the value of payment
+   */
+public void getPayment () {
+return payment;
+  }
+
+  /**
+   * Set the value of phone_no
+   * @paramnewVar the new value of phone_no
+   */
+private void setPhone_no (void newVar) {
+phone_no = newVar;
+  }
+
+  /**
+   * Get the value of phone_no
+   * @return the value of phone_no
+   */
+private void getPhone_no () {
+returnphone_no;
+  }
+
+  /**
+   * Set the value of garden_size
+   * @paramnewVar the new value of garden_size
+   */
+private void setGarden_size (void newVar) {
+garden_size = newVar;
+  }
+
+  /**
+   * Get the value of garden_size
+   * @return the value of garden_size
+   */
+private void getGarden_size () {
+returngarden_size;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void request_for_gardener()
+  {
+  }
+
+
+  /**
+   */
+public void cancell_booking()
+  {
+  }
+
+
+  /**
+   */
+public void initiate_payment()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class gardener
+ */
+public class gardener {
+
+  //
+  // Fields
+  //
+
+public void name;
+public void phoneno;
+private void adress;
+private void salary;
+
+  //
+  // Constructors
+  //
+public gardener () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @paramnewVar the new value of name
+   */
+public void setName (void newVar) {
+name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+public void getName () {
+return name;
+  }
+
+  /**
+   * Set the value of phoneno
+   * @paramnewVar the new value of phoneno
+   */
+public void setPhoneno (void newVar) {
+phoneno = newVar;
+  }
+
+  /**
+   * Get the value of phoneno
+   * @return the value of phoneno
+   */
+public void getPhoneno () {
+returnphoneno;
+  }
+
+  /**
+   * Set the value of adress
+   * @paramnewVar the new value of adress
+   */
+private void setAdress (void newVar) {
+adress = newVar;
+  }
+
+  /**
+   * Get the value of adress
+   * @return the value of adress
+   */
+private void getAdress () {
+returnadress;
+  }
+
+  /**
+   * Set the value of salary
+   * @paramnewVar the new value of salary
+   */
+private void setSalary (void newVar) {
+salary = newVar;
+  }
+
+  /**
+   * Get the value of salary
+   * @return the value of salary
+   */
+private void getSalary () {
+return salary;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void orders_taken()
+  {
+  }
+
+
+}
