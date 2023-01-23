@@ -1,0 +1,250 @@
+/**
+ * Class central_management_system
+ */
+public class central_management_system {
+
+  //
+  // Fields
+  //
+
+private void store_details;
+private void verify_details;
+
+  //
+  // Constructors
+  //
+publiccentral_management_system () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of store_details
+   * @paramnewVar the new value of store_details
+   */
+private void setStore_details (void newVar) {
+store_details = newVar;
+  }
+
+  /**
+   * Get the value of store_details
+   * @return the value of store_details
+   */
+private void getStore_details () {
+returnstore_details;
+  }
+
+  /**
+   * Set the value of verify_details
+   * @paramnewVar the new value of verify_details
+   */
+private void setVerify_details (void newVar) {
+verify_details = newVar;
+  }
+
+  /**
+   * Get the value of verify_details
+   * @return the value of verify_details
+   */
+private void getVerify_details () {
+returnverify_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void verify()
+  {
+  }
+
+
+  /**
+   */
+public void enroll()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class student
+ */
+public class student {
+
+  //
+  // Fields
+  //
+
+private void name_and_address;
+private void marks;
+
+  //
+  // Constructors
+  //
+public student () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name_and_address
+   * @paramnewVar the new value of name_and_address
+   */
+private void setName_and_address (void newVar) {
+name_and_address = newVar;
+  }
+
+  /**
+   * Get the value of name_and_address
+   * @return the value of name_and_address
+   */
+private void getName_and_address () {
+returnname_and_address;
+  }
+
+  /**
+   * Set the value of marks
+   * @paramnewVar the new value of marks
+   */
+private void setMarks (void newVar) {
+marks = newVar;
+  }
+
+  /**
+   * Get the value of marks
+   * @return the value of marks
+   */
+private void getMarks () {
+return marks;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void browse()
+  {
+  }
+
+
+  /**
+   */
+public void select()
+  {
+  }
+
+
+  /**
+   */
+public void register()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+* Class university
+ */
+public class university {
+
+  //
+  // Fields
+  //
+
+private void store_details;
+private void verify_details;
+
+  //
+  // Constructors
+  //
+public university () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of store_details
+   * @paramnewVar the new value of store_details
+   */
+private void setStore_details (void newVar) {
+store_details = newVar;
+  }
+
+  /**
+   * Get the value of store_details
+   * @return the value of store_details
+   */
+private void getStore_details () {
+returnstore_details;
+  }
+
+  /**
+   * Set the value of verify_details
+   * @paramnewVar the new value of verify_details
+   */
+private void setVerify_details (void newVar) {
+verify_details = newVar;
+  }
+
+  /**
+   * Get the value of verify_details
+   * @return the value of verify_details
+   */
+private void getVerify_details () {
+returnverify_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void verify()
+  {
+  }
+
+
+  /**
+   */
+public void enroll()
+  {
+  }
+
+
+}
