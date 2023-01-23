@@ -1,0 +1,268 @@
+/**
+ * Class admin
+ */
+public class admin {
+
+  //
+  // Fields
+  //
+
+private void student_details;
+private void book_list;
+
+  //
+  // Constructors
+  //
+public admin () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of student_details
+   * @paramnewVar the new value of student_details
+   */
+private void setStudent_details (void newVar) {
+student_details = newVar;
+  }
+
+  /**
+   * Get the value of student_details
+   * @return the value of student_details
+   */
+private void getStudent_details () {
+returnstudent_details;
+  }
+
+  /**
+   * Set the value of book_list
+   * @paramnewVar the new value of book_list
+   */
+private void setBook_list (void newVar) {
+book_list = newVar;
+  }
+
+  /**
+   * Get the value of book_list
+   * @return the value of book_list
+   */
+private void getBook_list () {
+returnbook_list;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void verify_student_id()
+  {
+  }
+
+
+  /**
+   */
+public void check_for_book_availablity()
+  {
+  }
+
+
+  /**
+   */
+public void issue_books()
+  {
+  }
+
+
+  /**
+   */
+public void order_for_new_author()
+  {
+  }
+
+
+  /**
+   */
+public void maintain_student_details()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class computer
+ */
+public class computer {
+
+  //
+  // Fields
+  //
+
+private void student_reccord;
+private void book_list;
+
+  //
+  // Constructors
+  //
+public computer () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of student_reccord
+   * @paramnewVar the new value of student_reccord
+   */
+private void setStudent_reccord (void newVar) {
+student_reccord = newVar;
+  }
+
+  /**
+   * Get the value of student_reccord
+   * @return the value of student_reccord
+   */
+private void getStudent_reccord () {
+returnstudent_reccord;
+  }
+
+  /**
+   * Set the value of book_list
+   * @paramnewVar the new value of book_list
+   */
+private void setBook_list (void newVar) {
+book_list = newVar;
+  }
+
+  /**
+   * Get the value of book_list
+   * @return the value of book_list
+   */
+private void getBook_list () {
+returnbook_list;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void maintain_student_record()
+  {
+  }
+
+
+  /**
+   */
+public void enter_issue()
+  {
+  }
+
+
+  /**
+   */
+public void order_new_author()
+  {
+  }
+
+
+  /**
+   */
+public void check_availablity()
+  {
+  }
+
+
+}
+
+
+
+
+
+
+/**
+ * Class student
+ */
+public class student {
+
+  //
+  // Fields
+  //
+
+private void student_details;
+
+  //
+  // Constructors
+  //
+public student () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of student_details
+   * @paramnewVar the new value of student_details
+   */
+private void setStudent_details (void newVar) {
+student_details = newVar;
+  }
+
+  /**
+   * Get the value of student_details
+   * @return the value of student_details
+   */
+private void getStudent_details () {
+returnstudent_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void request_for_books()
+  {
+  }
+
+
+  /**
+   */
+public void return_previous_book()
+  {
+  }
+
+
+  /**
+   */
+public void register()
+  {
+  }
+
+
+}
