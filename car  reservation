@@ -1,0 +1,405 @@
+importjava.util.*;
+/**
+ * Class booking
+ */
+public class booking {
+
+  //
+  // Fields
+  //
+
+private void booking_id;
+private void booking_title;
+private void description;
+
+  //
+  // Constructors
+  //
+public booking () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of booking_id
+   * @paramnewVar the new value of booking_id
+   */
+private void setBooking_id (void newVar) {
+booking_id = newVar;
+  }
+
+  /**
+   * Get the value of booking_id
+   * @return the value of booking_id
+   */
+private void getBooking_id () {
+returnbooking_id;
+  }
+
+  /**
+   * Set the value of booking_title
+   * @paramnewVar the new value of booking_title
+   */
+private void setBooking_title (void newVar) {
+booking_title = newVar;
+  }
+
+  /**
+   * Get the value of booking_title
+   * @return the value of booking_title
+   */
+private void getBooking_title () {
+returnbooking_title;
+  }
+
+  /**
+   * Set the value of description
+   * @paramnewVar the new value of description
+   */
+private void setDescription (void newVar) {
+description = newVar;
+  }
+
+  /**
+   * Get the value of description
+   * @return the value of description
+   */
+private void getDescription () {
+return description;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void add_booking()
+  {
+  }
+
+
+  /**
+   */
+public void remove_booking()
+  {
+  }
+
+
+}
+
+
+
+
+
+importjava.util.*;
+
+
+/**
+ * Class driver
+ */
+public class driver {
+
+  //
+  // Fields
+  //
+
+private void name;
+private void driver_id;
+private void mobile_no;
+
+  //
+  // Constructors
+  //
+public driver () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @paramnewVar the new value of name
+   */
+private void setName (void newVar) {
+name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+private void getName () {
+return name;
+  }
+
+  /**
+   * Set the value of driver_id
+   * @paramnewVar the new value of driver_id
+   */
+private void setDriver_id (void newVar) {
+driver_id = newVar;
+  }
+
+  /**
+   * Get the value of driver_id
+   * @return the value of driver_id
+   */
+private void getDriver_id () {
+returndriver_id;
+  }
+
+  /**
+   * Set the value of mobile_no
+   * @paramnewVar the new value of mobile_no
+   */
+private void setMobile_no (void newVar) {
+mobile_no = newVar;
+  }
+
+  /**
+   * Get the value of mobile_no
+   * @return the value of mobile_no
+   */
+private void getMobile_no () {
+returnmobile_no;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void add_driver()
+  {
+  }
+
+
+  /**
+   */
+public void remove_driver()
+  {
+  }
+
+
+  /**
+   */
+public void modify_driver()
+  {
+  }
+
+
+}
+
+
+
+
+
+importjava.util.*;
+
+
+/**
+ * Class permission
+ */
+public class permission {
+
+  //
+  // Fields
+  //
+
+private void permission_id;
+private void permission_role;
+
+  //
+  // Constructors
+  //
+public permission () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of permission_id
+   * @paramnewVar the new value of permission_id
+   */
+private void setPermission_id (void newVar) {
+permission_id = newVar;
+  }
+
+  /**
+   * Get the value of permission_id
+   * @return the value of permission_id
+   */
+private void getPermission_id () {
+returnpermission_id;
+  }
+
+  /**
+   * Set the value of permission_role
+   * @paramnewVar the new value of permission_role
+   */
+private void setPermission_role (void newVar) {
+permission_role = newVar;
+  }
+
+  /**
+   * Get the value of permission_role
+   * @return the value of permission_role
+   */
+private void getPermission_role () {
+returnpermission_role;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void add_permission()
+  {
+  }
+
+
+  /**
+   */
+public void delete_permissio_n()
+  {
+  }
+
+
+  /**
+   */
+public void modify_permission()
+  {
+  }
+
+
+}
+
+
+
+
+
+importjava.util.*;
+
+
+/**
+ * Class user
+ */
+public class user {
+
+  //
+  // Fields
+  //
+
+private void name;
+private void phone_no;
+private void email;
+
+  //
+  // Constructors
+  //
+public user () { };
+
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @paramnewVar the new value of name
+   */
+private void setName (void newVar) {
+name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+private void getName () {
+return name;
+  }
+
+  /**
+   * Set the value of phone_no
+   * @paramnewVar the new value of phone_no
+   */
+private void setPhone_no (void newVar) {
+phone_no = newVar;
+  }
+
+  /**
+   * Get the value of phone_no
+   * @return the value of phone_no
+   */
+private void getPhone_no () {
+returnphone_no;
+  }
+
+  /**
+   * Set the value of email
+   * @paramnewVar the new value of email
+   */
+private void setEmail (void newVar) {
+email = newVar;
+  }
+
+  /**
+   * Get the value of email
+   * @return the value of email
+   */
+private void getEmail () {
+return email;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+public void add_user()
+  {
+  }
+
+
+  /**
+   */
+public void edit_user()
+  {
+  }
+
+
+  /**
+   */
+public void delete_user()
+  {
+  }
+
+
+}
